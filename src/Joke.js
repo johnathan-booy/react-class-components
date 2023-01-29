@@ -2,10 +2,6 @@ import React from "react";
 import "./Joke.css";
 
 class Joke extends React.Component {
-	constructor(props) {
-		super(props);
-	}
-
 	render() {
 		const { vote, votes, text, id } = this.props;
 		return (
